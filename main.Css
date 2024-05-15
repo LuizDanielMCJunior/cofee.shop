@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+/*@media screen and (min ){
+  
+}
+
+     /* top, right, bottom, left*/
+  
+
+body{ 
+  width: 100%;
+    margin: auto;
+    display: inline-block;
+    background-image: url('/images/background.cofe.jpg'); /*guarda essa porra de img*/
+    background-size:contain;
+    background-position: center;
+}
+.navbar 
+     {  width: 90%;
+     position:absolute;
+    padding-bottom: 8px;
+   border: 10px solid rgb(0, 0, 0);
+     background-color: rgb(117, 51, 51); 
+     margin: 2% 2% 2% 2%;
+ 
+   /*lembra da margim*/
+}
+.logo {
+    width: 120px;
+    margin-left: 0;
+}
+.texto h1{
+    margin: 1% 0px 1% 1%;
+}
+.texto p{ 
+    font-style: italic;
+    font-size: 25px;
+    padding: 0px 0px 0px 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.opçoes{
+  display:inline-flex;
+  width: 400px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 36%;
+  gap: 30px;
+}
+.opçoes a{
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color:  rgb(117, 51, 51);
+    border-radius: 3px;
+    font-size: 20px;
+    text-decoration: none;
+ 
+}  
+
+/*#cart{
+  margin-left: 11%;
+  cursor: pointer;
+  background-color: rgb(117, 51, 51);
+  border: none;
+}
+#cart:hover{
+  cursor: pointer;
+  background-color: rgb(117, 51, 51);
+  border-bottom: 4px solid black;
+}*/
+
+.produtosQ{
+     margin-left:1%;
+     margin-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: white;
+  border: 30px solid transparent;
+  border-top:solid 25px rgb(117, 51, 51);
+  border-left:solid 15px rgb(117, 51, 51);
+  margin-bottom: 5px; 
+  display: inline-flex;
+}
+.produtos{
+    margin-left:1%;
+    margin-right: 50px;
+    margin-top:25%;
+   cursor: pointer;
+   font-size: 40px;
+   font-family: 'Edu TAS Beginner', cursive;
+   color: white;
+ border: 30px solid transparent;
+ border-top:solid 25px rgb(117, 51, 51);
+ border-left:solid 15px rgb(117, 51, 51);
+ margin-bottom: 5px; 
+ 
+}
+
+.produtosA{
+  margin-left:1%;
+  margin-right: 50px;
+  margin-top: 0px;
+ cursor: pointer;
+ font-size: 40px;
+ font-family: 'Edu TAS Beginner', cursive;
+ color: white;
+border: 30px solid transparent;
+border-top:solid 25px rgb(117, 51, 51);
+border-left:solid 15px rgb(117, 51, 51);
+margin-bottom: 5px; 
+
+}
+.produtosg{
+  margin-left:1%;
+  margin-right: 50px;
+ cursor: pointer;
+ font-size: 40px;
+ font-family: 'Edu TAS Beginner', cursive;
+ color: white;
+border: 30px solid transparent;
+border-top:solid 25px rgb(117, 51, 51);
+border-left:solid 15px rgb(117, 51, 51);
+margin-bottom: 5px; 
+}
+.card{
+   margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(117, 51, 51); 
+    border: 5px solid white;
+    width: 250px;
+    height: 250px;
+   overflow:hidden;
+    /*trabalhar o display none() javascript*/
+}
+.card2{
+   margin-top: 10px;
+   margin-bottom: 8px;
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 8px;
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   background-color:rgb(117, 51, 51); 
+  border-top: 5px solid  white;
+  border-bottom: 5px solid  white;
+   width: 250px;
+   height: 250px;
+  overflow:hidden;
+   /*trabalhar o display none() javascript*/
+}
+.card3{ 
+  margin-top: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color:rgb(117, 51, 51); 
+ border-top: 5px solid  white;
+ border-bottom: 5px solid  white;
+ border-right: 5px solid white;
+  width: 250px;
+  height: 250px;
+ overflow:hidden;
+  /*trabalhar o display none() javascript*/
+}
+.card:hover {
+  border: 5px solid rgb(117, 51, 51);
+ background-color: rgb(255, 255, 255);
+ color:rgb(117, 51, 51) ;
+  height: 350px;
+  width: 280px;
+  border-image: 5px solid black;
+}
+.card2:hover {
+  border: 5px solid rgb(117, 51, 51);
+ background-color: rgb(255, 255, 255);
+ color:rgb(117, 51, 51) ;
+ width: 480px;
+  height: 390px;
+  border-image: 5px solid black;
+}
+.card3:hover {
+  border: 5px solid rgb(117, 51, 51);
+ background-color: rgb(255, 255, 255);
+ color:rgb(117, 51, 51) ;
+  height: 390px;
+  width: 480px;
+  border-image: 5px solid black;
+}
+
+#bebidasq{
+    text-align: center;
+    width: 25%;
+    margin-left: 33%;
+    padding-right: 45px;
+    display: inline-flex;
+    flex-direction: column;
+    border-top:solid 25px rgb(117, 51, 51);
+    border-right:solid 15px rgb(117, 51, 51);
+    border-bottom:solid 15px rgb(117, 51, 51); 
+    display: none;
+} 
+
+#bebidasg{
+   text-align: center;
+    width: 25%;
+    margin-left: 33%;
+    padding-right: 45px;
+    display: inline-flex;
+    flex-direction:column;
+    border-top:solid 25px rgb(117, 51, 51);
+    border-right:solid 15px rgb(117, 51, 51);
+    border-bottom:solid 15px rgb(117, 51, 51);
+    display: none;
+} 
+.acompanhamentos  
+{  
+  text-align: center;
+  margin-top: 30px;
+   margin-left: 5%;
+    width: 90%;
+    padding-top: 3%;
+    padding-right: 40px;
+    display: inline-flex;
+  flex-flow: row;
+    flex-wrap: nowrap;
+  border-top:solid 25px rgb(117, 51, 51);
+  border-right:solid 15px rgb(117, 51, 51);
+  border-bottom:solid 15px rgb(117, 51, 51);
+
+}
+.fotos {
+  text-align: center;
+    width: 200px;
+    height: 150px;
+   border-radius: 50px;   
+}
+.fotos:hover {
+  width: 230px;
+  height: 200px;
+  border: 5px solid rgb(117, 51, 51);
+}
+  h3{
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+  }   
+    #quemsomos{ 
+    display: flex; 
+    flex-direction: column;
+    font-size: 25px;
+    color: aliceblue;
+  }
+  #nos{
+   text-align: center;
+  }
+
+  #missao {  
+    display:flex;
+    flex-direction: row;
+    margin-left: 5%;
+    font-size: 25px;
+    color: aliceblue;
+   width: 90%;
+  
+  }
+  h2{  
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+  }
+  #missao p{ 
+    padding: 20px;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    font-size: 25px;
+    color: aliceblue;
+   width: 45%;
+  align-items: center;
+  }
+  #missao img{
+   border-radius: 50px;
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+  }
+  #localidades{
+    margin-left: 5%;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+  }
+
+#footer{ 
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+ height: 200px;
+width: 90%;
+position:absolute;
+padding-bottom: 8px;
+
+background-color: rgb(117, 51, 51);
+margin: 2% 2% 2% 2%;
+}
+h4{  font-size: 25px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.cnpj{
+  font-size: 20px;
+  margin-top: 11%;
+}
+#termos{ 
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+#termos  a{    
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+#termos a:hover{
+ border-bottom: 5px solid black;
+
+}
+#termos:hover{
+   font-weight: bold;
+}
+.whatsapp{
+  margin-top: 12%;
+  margin-right: 50px;
+
+}
+.whats{
+  width: 40px;
+}
+.instagram{
+  margin-top: 12%;
+  margin-left: 25px;
+}
+.insta{
+  width: 37px;
+}
+.flogo{
+  margin-top: 0px;
+  margin-bottom: 150px;
+  width: 100px;
+}
+
+/*#quantidade{
+  font-weight: bold;
+  color: aliceblue;
+  margin-left: 25%;
+  max-width: fit-content;
+}
+#tituloquantidade{
+ margin-bottom: 1px;
+  margin-right: 10px;
+  color: black;
+}
+
+#qtd{
+
+  font-weight: bold;
+  width: 35px;
+  height: 30px;
+  margin-right: 2px;
+ } 
+ #qtd_acomp{
+  font-weight: bold;
+  width: 35px;
+  height: 30px;
+
+ } 
+ .adc{
+  font-weight: bold;
+  height: 36px;
+  }
+  .adc:hover{
+    padding: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    height: 36px;
+    }
+  #quantidade-texto {
+    padding: 4px;
+    margin: 5px 5px 5px 5px;
+  }
+  */
+  /*.carrinho{
+    text-align: center;
+    font-size: 23px;
+    width: 80%;
+    padding: 15px;
+    margin: 100px 100px 0px  100px;
+    background-color: rgb(117, 51, 51);
+    display: inline-flex;
+    flex-direction: column;
+    display: none; 
+    font-weight: bold;
+  }*/
+
+  /*.hcar{
+    padding: 0px;
+    font-family: 'Abel', sans-serif;
+    color:  rgb(117, 51, 51);
+    font-size: bold;
+   
+  }
+  */
+
+/*.inputcartao{
+}*/
+
+/*.cartao img{
+  position: absolute;
+  width: 30px;
+  margin-left: 2%;
+  justify-content: center;
+}
+.pix img{ position: absolute;
+  width: 30px;
+  margin-left: 2%;
+  justify-content: center;
+}
+
+.boleto img{position: absolute;
+  width: 30px;
+  margin-left: 2%;
+  justify-content: center;
+}*/
+
+
+
+
+

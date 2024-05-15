@@ -1,0 +1,111 @@
+@media screen and (max-width: 1000px)
+{
+    .navbar{
+       height: auto;
+    
+    } 
+  .opçoes{
+    max-width: 10%;
+    display: inline-flex;
+  }
+.produtos {
+  margin-left: 9%;
+    text-align: center;
+    
+}
+.produtosg {
+  margin-left: 9%;
+    text-align: center;
+    
+}
+#cart img{
+    width: 40px;
+}
+#cart{
+    margin-top: 10px;
+    margin-left: 78%;
+    position: fixed;
+    border-radius: 5px;
+}
+    #bebidasq{  
+      margin-left: 6%;
+        border: none;
+        display: none;
+        flex-direction: column;
+    }
+    #bebidasg{  
+     margin-left: 6%;
+      border: none;
+      display: none;
+      flex-direction: column;
+  }
+    .acompanhamentos{
+        margin-left: 9%;
+        text-align: center; 
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+  .card2 {
+        border: 5px solid white;
+          } 
+          .card3 {
+  border: 5px solid white;
+    }
+    .acompanhamentos .produtos{
+     margin-left: 0%;
+    }
+
+    .card2:hover {
+       width: 300px;
+          } 
+    .card3:hover {
+           width:  300px;
+    }
+    .acompanhamentos .produtos{
+     margin-left: 0%;
+    }
+ #missao img{
+  padding-top: 50px;
+  width: 200px;
+  height: 200px;
+ }
+ #footer {display: flex;
+    width: 90%;
+ }
+
+  #termos {
+    width: 10px;
+    margin-right: 25px;
+   
+   
+  }
+  #termos a{
+    margin-top: 100px;
+    padding: 2px;
+    height: 35px; font-size: 11px;
+
+  }
+    .cnpj {
+      margin-top: 150px;
+     font-size:12px;
+    }
+
+ .insta{ margin-top: 100px;
+     width: 30px;
+ }
+ .whats{ 
+  margin-top: 100px;
+     width: 35px;
+    }
+    #qtd {
+      margin-left: 117%;
+     
+    }
+    #adc {
+      margin-left: 100%;
+    }
+    #quantidade-texto {
+      margin-left: 100%;
+    }
+}
