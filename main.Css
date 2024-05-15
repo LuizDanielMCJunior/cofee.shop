@@ -13,7 +13,7 @@ body{
   width: 100%;
     margin: auto;
     display: inline-block;
-    background-image: url('/images/background.cofe.jpg'); /*guarda essa porra de img*/
+    background-image: url('/background.cofe.jpg'); /*guarda essa porra de img*/
     background-size:contain;
     background-position: center;
 }
