@@ -1,6 +1,10 @@
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1325px)
 {
-    .navbar{
+   body{
+    height: 100vh;
+   }
+  
+  .navbar{
        height: auto;
     
     } 
@@ -9,103 +13,83 @@
     display: inline-flex;
   }
 .produtos {
+  margin-top: 350px;
   margin-left: 9%;
-    text-align: center;
-    
+  width: 80%;
+}
+.produtosQ{
+ text-align: center;
+ margin-left: 100px;
+} 
+#bebidasq{  
+   margin-left: 35%;
+   border: none;
+   display: none;
+   flex-direction: column;
+    }
+
+.produtosGelados{
+  margin-left: 9%;
+  width: 80%;
 }
 .produtosg {
   margin-left: 9%;
-    text-align: center;
-    
+  width: 80%;
 }
-#cart img{
-    width: 40px;
-}
-#cart{
-    margin-top: 10px;
-    margin-left: 78%;
-    position: fixed;
-    border-radius: 5px;
-}
-    #bebidasq{  
-      margin-left: 6%;
-        border: none;
-        display: none;
-        flex-direction: column;
-    }
-    #bebidasg{  
-     margin-left: 6%;
-      border: none;
-      display: none;
-      flex-direction: column;
+ #bebidasg{   
+   margin-left: 35%;
+   border: none;
+   display: none;
+   flex-direction: column;
   }
-    .acompanhamentos{
-        margin-left: 9%;
-        text-align: center; 
-        border: none;
-        display: flex;
-        flex-direction: column;
-    }
+  .acompanhamentos{
+    margin-left: 8%;
+    text-align: center; 
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    margin-left: 5%;
+  }
   .card2 {
-        border: 5px solid white;
-          } 
-          .card3 {
-  border: 5px solid white;
-    }
-    .acompanhamentos .produtos{
-     margin-left: 0%;
-    }
-
+    margin-left: 30%;
+    border: 5px solid white;
+  } 
+  .card3 {
+    margin-left: 30%;
+    border: 5px solid white;
+   }
     .card2:hover {
-       width: 300px;
-          } 
+     width: 300px;
+   } 
     .card3:hover {
-           width:  300px;
+     width:  300px;
     }
-    .acompanhamentos .produtos{
-     margin-left: 0%;
-    }
+ 
  #missao img{
   padding-top: 50px;
   width: 200px;
   height: 200px;
  }
- #footer {display: flex;
-    width: 90%;
- }
+ #termos a{
+  padding: 10px;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: space-between;
 
-  #termos {
-    width: 10px;
-    margin-right: 25px;
-   
-   
-  }
-  #termos a{
-    margin-top: 100px;
-    padding: 2px;
-    height: 35px; font-size: 11px;
+}
+  /* Footer styles */
 
-  }
-    .cnpj {
-      margin-top: 150px;
-     font-size:12px;
-    }
+.cnpj {
+   font-size:12px;
+}
+.redesSociais{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-left: 2%;
+}
 
- .insta{ margin-top: 100px;
-     width: 30px;
- }
- .whats{ 
-  margin-top: 100px;
-     width: 35px;
-    }
-    #qtd {
-      margin-left: 117%;
-     
-    }
-    #adc {
-      margin-left: 100%;
-    }
-    #quantidade-texto {
-      margin-left: 100%;
-    }
+
 }
