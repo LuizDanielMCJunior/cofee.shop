@@ -74,17 +74,17 @@ body{
 }*/
 
 .produtosQ{
-     margin-left:1%;
-     margin-right: 50px;
-    cursor: pointer;
-    font-size: 40px;
-    font-family: 'Edu TAS Beginner', cursive;
-    color: white;
-  border: 30px solid transparent;
-  border-top:solid 25px rgb(117, 51, 51);
-  border-left:solid 15px rgb(117, 51, 51);
-  margin-bottom: 5px; 
-  display: inline-flex;
+  margin-left:1%;
+  margin-right: 50px;
+ cursor: pointer;
+ font-size: 40px;
+ font-family: 'Edu TAS Beginner', cursive;
+ color: white;
+border: 30px solid transparent;
+border-top:solid 25px rgb(117, 51, 51);
+border-left:solid 15px rgb(117, 51, 51);
+margin-bottom: 5px; 
+display: inline-flex;
 }
 .produtosGelados{
   margin-left:1%;
@@ -333,14 +333,12 @@ h4{  font-size: 25px;
   margin-top: 25px;
   margin-right: 10px;
 }
-.cnpj{
-  font-size: 20px;
-  margin-top: 11%;
-}
+
 #termos{ 
   margin-top: 10%;
+  height:fit-content;
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 100px;
   flex-direction: row;
   
@@ -359,19 +357,15 @@ h4{  font-size: 25px;
    font-weight: bold;
 }
 
-.redesSociais{
-  display: flex;
-  flex-direction: column;
-  margin-top: 2%;
-  margin-right: 10px;
-}
 .whats{
   width: 47px;
 }
 
 .insta{
+
   width: 40px;
 }
+
 .flogo{
   margin-top: 0px;
   margin-bottom: 150px;

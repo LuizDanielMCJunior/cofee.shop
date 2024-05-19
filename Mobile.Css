@@ -7,41 +7,84 @@
    
     }    
     .navbar {
-       margin-left: 8%;
+       margin-left: 0%;
       /* Update styles for mobile screens if needed */
     }   
-    .opçoes {
-   margin-left: 4%;
-
-    } 
-    .produtos{
+.opçoes{
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.opçoes a{
+width: max-content;
+}
+ .produtos{
         margin-top: 350px;
-
      }
+.produtosQ{
+display:none;
+}
+.produtosGelados{
+  display:none;
+}
+.produtosA{
+  width: 100%;
 
-    /* Section "bebidasq" styles */
-    .card {
-        width: 100%; 
-       /* Make each card take full width */
-    }
+}
     #bebidasq {
-        width: 250px;
-        margin: 22%;
+      margin-left: 20%;
+      width: 200px;
     }
     #bebidasg{  
-        margin: 22%;
-        width: 250px;
+        margin-left: 20%;
+        width: 200px;
     }
-    
-    /* Section "produtosA" styles */
-    .acompanhamentos .card2 {
-        margin-left: 22%;
-        width: 250px; /* Make each card take full width */
-  
+    /* Section "bebidasq" styles */
+    .card {
+        width: 100%;
+       /* Make each card take full width */
+    }   
+     .card2{
+      width: 100%;
     }
     .card3{
-        margin-left: 22%;
+      width: 100%;
     }
+    .card:hover {
+      border: 5px solid rgb(117, 51, 51);
+     background-color: rgb(255, 255, 255);
+     color:rgb(117, 51, 51) ;
+      height: auto;
+      width:100%;
+      border-image: 5px solid black;
+    }
+    .card2:hover {
+      border: 5px solid rgb(117, 51, 51);
+     background-color: rgb(255, 255, 255);
+     color:rgb(117, 51, 51) ;
+     width:100%;
+     height: auto;
+      border-image: 5px solid black;
+    }
+    .card3:hover {
+      border: 5px solid rgb(117, 51, 51);
+     background-color: rgb(255, 255, 255);
+     color:rgb(117, 51, 51) ;
+     height: auto;
+     width:100%;
+      border-image: 5px solid black;
+    }
+  
+    .fotos:hover{
+      width: 200px;
+    }
+    /* Section "produtosA" styles */
+    .acompanhamentos {
+        width: 200px; /* Make each card take full width */
+        
+    }
+
     #nos{
         margin-left: 9%; 
       
@@ -56,41 +99,48 @@ margin-left: 10%;
  }
 
  #footer{ 
-    border-radius: 20px;
-    display: flex;
-    width: 90%;
-    background-color: rgb(117, 51, 51);
- }
-
- 
-  #termos{ 
-    margin-right: 3%;
-    width: 10%;
-    margin-top: 20%;
-    display: inline-flex;
-    justify-content: space-between;
-    flex-direction: row;
-  }
-#termos a{
-  width: 100%;
-  padding: 15px;
-  font-size: 15px;
+  display: flex;
+border-radius: 20px;
+ height: 200px;
+width: 90%;
+background-color: rgb(117, 51, 51);
 }
-  .redesSociais{
-    margin-top: 20%;
-  margin-left: 10px;
-  }
- .cnpj{
-  width: 100%;
-  margin-left: 10px;
-    font-size: 10px;
-    margin-top: 40%;
-  }
-  .whats{
-    width: 47px;
-  }
-  
-  .insta{
-    width: 40px;
-  }
-  }
+h4{  font-size: 16px;
+}
+
+#termos{   
+  margin-top: 30%;
+  display: grid;
+  height: fit-content;
+  width: 50%;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr  ;
+}
+#termos  a{  
+  display: flex;  
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+}
+#termos a:hover{
+ border-bottom: 5px solid black;
+}
+#termos:hover{
+   font-weight: bold;
+}
+.whats{
+  width: 30px;
+  height: 30px;
+}
+
+.insta{
+  height: 30px;
+  width: 30px;
+}
+.cnpj{
+  font-size: 8px;
+}
+
+.flogo{
+  margin-top: 0px;
+  width: 70px;
+}}
